@@ -1,0 +1,36 @@
+{
+    "name": "douyin_live_adapter",
+    "display_name": "抖音直播弹幕适配器",
+    "version": "1.0.0",
+    "description": "基于 Web 协议的抖音直播弹幕入站适配器；模拟浏览器行为，抓取公开弹幕、点赞与礼物。",
+    "author": "言柒",
+    "dependencies": {
+        "plugins": [],
+        "components": []
+    },
+    "include": [
+        {
+            "component_type": "adapter",
+            "component_name": "douyin_live_adapter",
+            "dependencies": []
+        }
+    ],
+    "entry_point": "plugin.py",
+    "min_core_version": "1.2.0-alpha",
+    "python_dependencies": [
+        "websockets>=12.0",
+        "httpx>=0.27.0",
+        "py-mini-racer>=0.6.0",
+        "betterproto>=1.2.5"
+    ],
+    "categories": [
+        "chat"
+    ],
+    "tags": [
+        "douyin",
+        "danmaku",
+        "vtb",
+        "live",
+        "adapter"
+    ]
+}

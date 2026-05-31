@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.Python
+build/
+dist/
+*.egg
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 测试与覆盖率
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 用户运行时数据（不应提交）
+data/
+*.log
+*.pid
+
+# 私密信息（绝对不要提交）
+*.env
+.env.*
+secrets.json
+credentials.*
+
+# 插件运行时缓存（py-mini-racer / V8 临时文件等）
+*.tmp
